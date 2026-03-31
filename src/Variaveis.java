@@ -29,5 +29,10 @@ public class Variaveis {
         char genero = 'M';
         System.out.println("Meu gênero é: " + genero);
 
+        // Exemplo de Array (vetor)
+        int[] notas = {8, 7, 9, 10};
+        System.out.println("Primeira nota: " + notas[0]);
+        System.out.println("Quantidade de notas: " + notas.length);
+
     }
 }
