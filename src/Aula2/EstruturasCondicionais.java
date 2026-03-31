@@ -1,4 +1,4 @@
-package Exemplos;
+package Aula2;
 
 public class EstruturasCondicionais {
 

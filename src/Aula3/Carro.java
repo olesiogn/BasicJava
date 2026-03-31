@@ -1,4 +1,4 @@
-package Exemplos;
+package Aula3;
 
 public class Carro {
     private String cor;

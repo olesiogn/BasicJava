@@ -1,4 +1,4 @@
-package Exemplos;
+package Aula1;
 
 public class Operacoes {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Exemplos;
+package Aula3;
 
 public class CarroEsportivo extends Carro {
     private int potencia;
