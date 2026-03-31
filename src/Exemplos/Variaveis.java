@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class Variaveis {
 
     public static void main(String[] args) {
@@ -33,6 +35,12 @@ public class Variaveis {
         int[] notas = {8, 7, 9, 10};
         System.out.println("Primeira nota: " + notas[0]);
         System.out.println("Quantidade de notas: " + notas.length);
+
+        //Comentario
+
+        /*
+        Bloco de comentário
+         */
 
     }
 }

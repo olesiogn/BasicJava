@@ -1,6 +1,8 @@
+package Exemplos;
+
 public class Main {
     public static void main(String[] args) {
-        // Criando um objeto Carro
+        // Criando um objeto Exemplos.Carro
         Carro meuCarro = new Carro();
         meuCarro.setCor("Vermelho");
         meuCarro.setModelo("Sedan");
@@ -18,9 +20,9 @@ public class Main {
         System.out.println("Modelo: " + outroCarro.getModelo());
         System.out.println("Ano: " + outroCarro.getAno());
 
-        // Exemplo de herança: CarroEsportivo
+        // Exemplo de herança: Exemplos.CarroEsportivo
         CarroEsportivo esportivo = new CarroEsportivo("Amarelo", "Coupé", 2023, 350);
-        System.out.println("\nCarro esportivo:");
+        System.out.println("\nExemplos.Carro esportivo:");
         System.out.println("Cor: " + esportivo.getCor());
         System.out.println("Modelo: " + esportivo.getModelo());
         System.out.println("Ano: " + esportivo.getAno());

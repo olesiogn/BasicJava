@@ -1,3 +1,5 @@
+package Exemplos;
+
 import java.util.ArrayList;
 
 public class EstruturaDeRepeticao {

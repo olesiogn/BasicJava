@@ -1,3 +1,5 @@
+package Exemplos;
+
 public class Operacoes {
     public static void main(String[] args) {
         // Operações matemáticas
@@ -30,5 +32,8 @@ public class Operacoes {
         // Concatenação de strings
         String nomeCompleto = nome1 + nome2;
         System.out.println("Nome completo: " + nomeCompleto);
+
+        int multipicaESoma = (a * b) + b;
+        System.out.println("Multiplicação e soma: " + multipicaESoma);
     }
 }
