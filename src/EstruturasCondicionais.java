@@ -1,4 +1,5 @@
 public class EstruturasCondicionais {
+
     public static void main(String[] args) {
         int idade = 17;
 
@@ -9,6 +10,30 @@ public class EstruturasCondicionais {
             System.out.println("Você é adolescente.");
         } else {
             System.out.println("Você é maior de idade.");
+        }
+
+        // Operadores lógicos com IF
+
+        // Operador && (AND)
+        boolean temCarteira = true;
+        boolean temDocumento = true;
+        if (temCarteira && temDocumento) {
+            System.out.println("Pode dirigir (tem carteira E documento)");
+        }
+
+        // Operador || (OR)
+        boolean temCarro = false;
+        boolean temMoto = true;
+        if (temCarro || temMoto) {
+            System.out.println("Pode sair para rodar (tem carro OU moto)");
+        }
+
+        // Operador ! (NOT - diferente)
+        boolean estaChovendo = true;
+        if (!estaChovendo) {
+            System.out.println("Não está chovendo, posso sair!");
+        }else{
+            System.out.println("Está chovendo, não posso sair!");
         }
 
         // Operador ternário
